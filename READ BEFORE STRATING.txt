@@ -1,0 +1,24 @@
+1.Make sure you have a my sql database password_recorder.
+2.make sure u have a tabel named recorder inside  password_recorder database.
+--------------------------------------------------------------------------------------------------------------------------------------------
+FOLLOWING ARE THE MYSQL COMMAND-:
+
+1->TO CREATE THE DATABASE:
+
+ create database  password_recorder;
+2->TO USE THE DATABASE
+use  
+password_recorder;
+3->TO CREATE THE TAABLE RECORDER 
+create table recorder(PURPOSE VARCHAR(20),PASSWORD VARCHAR(20));
+4->TO CHECK TE TABLE IS FORMED CORRECTLY OF NOT-:
+DESCRIBE RECORDER;
+
+
+
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| PURPOSE  | varchar(20) | YES  |     | NULL    |       |
+| PASSWORD | varchar(20) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
