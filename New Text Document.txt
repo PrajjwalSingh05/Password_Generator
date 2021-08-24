@@ -1,0 +1,39 @@
+> create table pin
+    -> (
+    -> pin int,
+    -> number int
+    -> );
+
+
+
+
+
+
+
+
+
+
+
+
+
+ use password_recorder
+Database changed
+mysql> create table pin
+    -> (
+    -> pin int,
+    -> number int
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> describe pin;
++--------+------+------+-----+---------+-------+
+| Field  | Type | Null | Key | Default | Extra |
++--------+------+------+-----+---------+-------+
+| pin    | int  | YES  |     | NULL    |       |
+| number | int  | YES  |     | NULL    |       |
++--------+------+------+-----+---------+-------+
+2 rows in set (0.01 sec)
+
+mysql> insert into pin
+    -> values(123,1234567890);
+Query OK, 1 row affected
