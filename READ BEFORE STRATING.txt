@@ -7,8 +7,7 @@ FOLLOWING ARE THE MYSQL COMMAND-:
 
  create database  password_recorder;
 2->TO USE THE DATABASE
-use  
-password_recorder;
+use password_recorder;
 3->TO CREATE THE TAABLE RECORDER 
 create table recorder(PURPOSE VARCHAR(20),PASSWORD VARCHAR(20));
 4->TO CHECK TE TABLE IS FORMED CORRECTLY OF NOT-:
