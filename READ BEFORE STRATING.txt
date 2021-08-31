@@ -21,3 +21,20 @@ DESCRIBE RECORDER;
 | PURPOSE  | varchar(20) | YES  |     | NULL    |       |
 | PASSWORD | varchar(20) | YES  |     | NULL    |       |
 +----------+-------------+------+-----+---------+-------+
+
+5-> to Create another table pin
+
+ create table pin (pin int,number int );
+
+6-> To descibe/see table pin
+ 
+> describe pin;
++--------+------+------+-----+---------+-------+
+| Field  | Type | Null | Key | Default | Extra |
++--------+------+------+-----+---------+-------+
+| pin    | int  | YES  |     | NULL    |       |
+| number | int  | YES  |     | NULL    |       |
++--------+------+------+-----+---------+-------+
+7-.Insert default pin ino the table pin
+mysql> insert into pin
+    -> values(123,1234567890);
